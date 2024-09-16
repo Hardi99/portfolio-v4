@@ -1,0 +1,24 @@
+/* À propos */
+.about-section {
+    background-color: #f4f4f4;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.about-content img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.about-content p {
+    max-width: 600px;
+    text-align: justify;
+    font-size: 18px;
+}
